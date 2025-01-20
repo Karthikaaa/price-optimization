@@ -1,10 +1,10 @@
 Optimal Pricing Project
 
-Overview
+  Overview
 
 This project focuses on analyzing and optimizing product pricing to maximize revenue. The journey involves multiple stages, including data analysis, visualization, and modeling, leveraging various tools and platforms.
 
-Project Workflow
+  Project Workflow
 
 1. Data Analysis
    
@@ -22,16 +22,17 @@ Project Workflow
    
     Final modeling and price optimization were implemented in Google Colab. Two key models were developed:
    
-     > Allow Loss Model: Permits losses for some products but ensures total revenue is profitable.
+     * Allow Loss Model: Permits losses for some products but ensures total revenue is profitable.
    
-     > No Loss Model: Ensures no individual product is sold at a loss while still optimizing revenue.
+     * No Loss Model: Ensures no individual product is sold at a loss while still optimizing revenue.
 
    
 4. Synthetic Data Generation
    
     The QUANTITY_SOLD column was synthetically generated using ChatGPT, adding variability to the dataset for modeling purposes.
 
-Project Structure
+  
+  Project Structure
 
 
       ├── code
@@ -69,45 +70,48 @@ Project Structure
       │   ├── PowerBI_Visualisation.pbix       # Power BI visualization file
 
 
-Data Source
+  Data Source
 
-   The data was obtained from AWS Data Exchange. It includes various product details, and the QUANTITY_SOLD column was synthetically generated for this project.
+   The data was obtained from AWS Data Exchange. It includes various product details, and the QUANTITY_SOLD column was synthetically generated for this 
+   project.
+  
 
-
-Tools and Technologies
+  Tools and Technologies
     
-  Jupyter Notebook: For initial data exploration and preprocessing.
-  AWS Athena: For efficient querying of large datasets.
-  Tableau & Power BI: For creating visual insights.
-  Google Colab: For building and testing price optimization models.
-  ChatGPT: For synthetic data generation.
+* Jupyter Notebook: For initial data exploration and preprocessing.
+* AWS Athena: For efficient querying of large datasets.
+* Tableau & Power BI: For creating visual insights.
+* Google Colab: For building and testing price optimization models.
+* ChatGPT: For synthetic data generation.
+  
 
-
+  
 Key Files
 
-Colab Models:
+* Colab Models:
 
-   allow_loss_model.ipynb: Optimizes pricing with allowance for product-specific losses.
+   * allow_loss_model.ipynb: Optimizes pricing with allowance for product-specific losses.
 
-   no_loss_model.ipynb: Optimizes pricing without any losses for individual products.
+   * no_loss_model.ipynb: Optimizes pricing without any losses for individual products.
 
  
- AWS Athena Scripts:
+* AWS Athena Scripts:
 
-   AvailabilityAnalysis.sql: Analyzes product availability.
+   * AvailabilityAnalysis.sql: Analyzes product availability.
 
-   PricingAnalysis.sql: Performs detailed pricing analysis.
+   * PricingAnalysis.sql: Performs detailed pricing analysis.
 
-   TableCreation.sql: Script to set up tables in AWS Athena.
-
-
-Visualization Files:
-
-   Tableau_Visualisation.twbx: Tableau visualizations.
-
-   PowerBI_Visualisation.pbix: Power BI dashboards.
+   * TableCreation.sql: Script to set up tables in AWS Athena.
 
 
-Results
+* Visualization Files:
+
+   * Tableau_Visualisation.twbx: Tableau visualizations.
+
+   * PowerBI_Visualisation.pbix: Power BI dashboards.
+
+
+     
+ Results
 
    The **Allow Loss Model
