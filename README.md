@@ -20,16 +20,16 @@ This project focuses on analyzing and optimizing product pricing to maximize rev
    
 4. Modeling
    
-   *  Final modeling and price optimization were implemented in Google Colab using Python. Two key models were developed:
+   * Final modeling and price optimization were implemented in Google Colab using Python. Two key models were developed:
    
-     * Allow Loss Model: Permits losses for some products but ensures total revenue is profitable.
+       * Allow Loss Model: Permits losses for some products but ensures total revenue is profitable.
    
-     * No Loss Model: Ensures no individual product is sold at a loss while still optimizing revenue.
+       * No Loss Model: Ensures no individual product is sold at a loss while still optimizing revenue.
 
    
 5. Synthetic Data Generation
    
-    The QUANTITY_SOLD column was synthetically generated using ChatGPT, adding variability to the dataset for modeling purposes.
+   * The QUANTITY_SOLD column was synthetically generated using ChatGPT, adding variability to the dataset for modeling purposes.
 
   
  <br> Project Structure
@@ -114,7 +114,4 @@ This project focuses on analyzing and optimizing product pricing to maximize rev
    * PowerBI_Visualisation.pbix: Power BI dashboards.
 
 
-     
-<br> Results
-
-   The <i>Allow Loss Model</i>
+  
