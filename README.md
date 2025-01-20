@@ -8,26 +8,26 @@ This project focuses on analyzing and optimizing product pricing to maximize rev
 
 1. Data Analysis
    
-    Initial data analysis was conducted using Jupyter Notebook, where we explored the dataset and performed preprocessing.
-   
-    Further data exploration and queries were executed using AWS Athena, providing an efficient way to analyze large datasets stored in the cloud.
+   * Initial data analysis was conducted using Jupyter Notebook, where we explored the dataset and performed preprocessing using Python.
+
+   * Further data exploration and queries were executed using AWS Athena with SQL, providing an efficient way to analyze large datasets stored in the cloud.
 
 
-2. Data Visualization
+3. Data Visualization
    
-    Created insightful visualizations using Tableau and Power BI to better understand trends and patterns in the data.
+   * Created insightful visualizations using Tableau and Power BI to better understand trends and patterns in the data.
 
    
-3. Modeling
+4. Modeling
    
-    Final modeling and price optimization were implemented in Google Colab. Two key models were developed:
+  *  Final modeling and price optimization were implemented in Google Colab using Python. Two key models were developed:
    
      * Allow Loss Model: Permits losses for some products but ensures total revenue is profitable.
    
      * No Loss Model: Ensures no individual product is sold at a loss while still optimizing revenue.
 
    
-4. Synthetic Data Generation
+5. Synthetic Data Generation
    
     The QUANTITY_SOLD column was synthetically generated using ChatGPT, adding variability to the dataset for modeling purposes.
 
@@ -78,6 +78,9 @@ This project focuses on analyzing and optimizing product pricing to maximize rev
 
 <br>  Tools and Technologies
     
+
+* Python: For data preprocessing, analysis, and modeling.
+* SQL: For querying and analyzing data in AWS Athena.
 * Jupyter Notebook: For initial data exploration and preprocessing.
 * AWS Athena: For efficient querying of large datasets.
 * Tableau & Power BI: For creating visual insights.
