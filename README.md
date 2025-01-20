@@ -1,10 +1,10 @@
 Optimal Pricing Project
 
-  Overview
+<br>  Overview
 
 This project focuses on analyzing and optimizing product pricing to maximize revenue. The journey involves multiple stages, including data analysis, visualization, and modeling, leveraging various tools and platforms.
-
-  Project Workflow
+ 
+ <br>  Project Workflow
 
 1. Data Analysis
    
@@ -32,7 +32,7 @@ This project focuses on analyzing and optimizing product pricing to maximize rev
     The QUANTITY_SOLD column was synthetically generated using ChatGPT, adding variability to the dataset for modeling purposes.
 
   
-  Project Structure
+ <br> Project Structure
 
 
       ├── code
@@ -70,13 +70,13 @@ This project focuses on analyzing and optimizing product pricing to maximize rev
       │   ├── PowerBI_Visualisation.pbix       # Power BI visualization file
 
 
-  Data Source
+ <br> Data Source
 
    The data was obtained from AWS Data Exchange. It includes various product details, and the QUANTITY_SOLD column was synthetically generated for this 
    project.
   
 
-  Tools and Technologies
+<br>  Tools and Technologies
     
 * Jupyter Notebook: For initial data exploration and preprocessing.
 * AWS Athena: For efficient querying of large datasets.
@@ -86,7 +86,7 @@ This project focuses on analyzing and optimizing product pricing to maximize rev
   
 
   
-Key Files
+<br> Key Files
 
 * Colab Models:
 
@@ -112,6 +112,6 @@ Key Files
 
 
      
- Results
+<br> Results
 
-   The **Allow Loss Model
+   The <i>Allow Loss Model</i>
