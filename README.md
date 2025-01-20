@@ -11,91 +11,103 @@ Project Workflow
     Initial data analysis was conducted using Jupyter Notebook, where we explored the dataset and performed preprocessing.
    
     Further data exploration and queries were executed using AWS Athena, providing an efficient way to analyze large datasets stored in the cloud.
-   
-3. Data Visualization
+
+
+2. Data Visualization
    
     Created insightful visualizations using Tableau and Power BI to better understand trends and patterns in the data.
+
    
-5. Modeling
+3. Modeling
    
     Final modeling and price optimization were implemented in Google Colab. Two key models were developed:
    
-      Allow Loss Model: Permits losses for some products but ensures total revenue is profitable.
+     > Allow Loss Model: Permits losses for some products but ensures total revenue is profitable.
    
-      No Loss Model: Ensures no individual product is sold at a loss while still optimizing revenue.
+     > No Loss Model: Ensures no individual product is sold at a loss while still optimizing revenue.
+
    
-7. Synthetic Data Generation
+4. Synthetic Data Generation
    
     The QUANTITY_SOLD column was synthetically generated using ChatGPT, adding variability to the dataset for modeling purposes.
 
 Project Structure
 
 
-├── code
+      ├── code
 
-│   ├── aws
+      │   ├── aws
 
-│   │   ├── athena
+      │   │   ├── athena
 
-│   │       ├── AvailabilityAnalysis.sql   # SQL script for availability analysis
+      │   │       ├── AvailabilityAnalysis.sql   # SQL script for availability analysis
 
-│   │       ├── PricingAnalysis.sql       # SQL script for pricing analysis
+      │   │       ├── PricingAnalysis.sql       # SQL script for pricing analysis
 
-│   │       ├── TableCreation.sql         # SQL script for table creation
+      │   │       ├── TableCreation.sql         # SQL script for table creation
 
-│   ├── jupyter
+      │   ├── jupyter
 
-│       ├── primary_analysis.ipynb        # Jupyter Notebook for initial analysis
+      │       ├── primary_analysis.ipynb        # Jupyter Notebook for initial analysis
 
-│   ├── colab
+      │   ├── colab
 
-│       ├── allow_loss_model.ipynb        # Allows some products to incur losses
+      │       ├── allow_loss_model.ipynb        # Allows some products to incur losses
 
-│       ├── no_loss_model.ipynb           # Ensures no losses
+      │       ├── no_loss_model.ipynb           # Ensures no losses
 
-├── data
+      ├── data
 
-│   ├── Nordstrom_products_with_quantity_sold.csv   # Dataset with quantity sold
+      │   ├── Nordstrom_products_with_quantity_sold.csv   # Dataset with quantity sold
 
-│   ├── Nordstrom_products-2023-05-28.csv           # Original dataset
+      │   ├── Nordstrom_products-2023-05-28.csv           # Original dataset
 
-├── visualisation
+      ├── visualisation
 
-│   ├── Tableau_Visualisation.twbx       # Tableau visualization file
+      │   ├── Tableau_Visualisation.twbx       # Tableau visualization file
 
-│   ├── PowerBI_Visualisation.pbix       # Power BI visualization file
+      │   ├── PowerBI_Visualisation.pbix       # Power BI visualization file
 
 
 Data Source
 
-    The data was obtained from AWS Data Exchange. It includes various product details, and the QUANTITY_SOLD column was synthetically generated for this project.
+   The data was obtained from AWS Data Exchange. It includes various product details, and the QUANTITY_SOLD column was synthetically generated for this project.
 
 
 Tools and Technologies
     
-    Jupyter Notebook: For initial data exploration and preprocessing.
-    AWS Athena: For efficient querying of large datasets.
-    Tableau & Power BI: For creating visual insights.
-    Google Colab: For building and testing price optimization models.
-    ChatGPT: For synthetic data generation.
+  Jupyter Notebook: For initial data exploration and preprocessing.
+  AWS Athena: For efficient querying of large datasets.
+  Tableau & Power BI: For creating visual insights.
+  Google Colab: For building and testing price optimization models.
+  ChatGPT: For synthetic data generation.
 
 
 Key Files
 
-    Colab Models:
+Colab Models:
 
-        allow_loss_model.ipynb: Optimizes pricing with allowance for product-specific losses.
+   allow_loss_model.ipynb: Optimizes pricing with allowance for product-specific losses.
 
-        no_loss_model.ipynb: Optimizes pricing without any losses for individual products.
+   no_loss_model.ipynb: Optimizes pricing without any losses for individual products.
 
-    AWS Athena Scripts:
+ 
+ AWS Athena Scripts:
 
-        AvailabilityAnalysis.sql: Analyzes product availability.
-PricingAnalysis.sql: Performs detailed pricing analysis.
-TableCreation.sql: Script to set up tables in AWS Athena.
+   AvailabilityAnalysis.sql: Analyzes product availability.
+
+   PricingAnalysis.sql: Performs detailed pricing analysis.
+
+   TableCreation.sql: Script to set up tables in AWS Athena.
+
+
 Visualization Files:
-Tableau_Visualisation.twbx: Tableau visualizations.
-PowerBI_Visualisation.pbix: Power BI dashboards.
+
+   Tableau_Visualisation.twbx: Tableau visualizations.
+
+   PowerBI_Visualisation.pbix: Power BI dashboards.
+
 
 Results
-The **Allow Loss Model
+
+   The **Allow Loss Model
