@@ -20,7 +20,7 @@ This project focuses on analyzing and optimizing product pricing to maximize rev
    
 4. Modeling
    
-  *  Final modeling and price optimization were implemented in Google Colab using Python. Two key models were developed:
+   *  Final modeling and price optimization were implemented in Google Colab using Python. Two key models were developed:
    
      * Allow Loss Model: Permits losses for some products but ensures total revenue is profitable.
    
