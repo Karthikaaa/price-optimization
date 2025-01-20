@@ -28,7 +28,25 @@ No Loss Model: Ensures no individual product is sold at a loss while still optim
 
 The QUANTITY_SOLD column was synthetically generated using ChatGPT, adding variability to the dataset for modeling purposes.
 
+Project Structure
 
+├── code
+│   ├── aws
+│   │   ├── athena
+│   │       ├── AvailabilityAnalysis.sql   # SQL script for availability analysis
+│   │       ├── PricingAnalysis.sql       # SQL script for pricing analysis
+│   │       ├── TableCreation.sql         # SQL script for table creation
+│   ├── jupyter
+│       ├── primary_analysis.ipynb        # Jupyter Notebook for initial analysis
+│   ├── colab
+│       ├── allow_loss_model.ipynb        # Allows some products to incur losses
+│       ├── no_loss_model.ipynb           # Ensures no losses
+├── data
+│   ├── Nordstrom_products_with_quantity_sold.csv   # Dataset with quantity sold
+│   ├── Nordstrom_products-2023-05-28.csv           # Original dataset
+├── visualisation
+│   ├── Tableau_Visualisation.twbx       # Tableau visualization file
+│   ├── PowerBI_Visualisation.pbix       # Power BI visualization file
 
 
 Data Source
