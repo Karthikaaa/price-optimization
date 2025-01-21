@@ -114,4 +114,13 @@ This project focuses on analyzing and optimizing product pricing to maximize rev
    * PowerBI_Visualisation.pbix: Power BI dashboards.
 
 
-  
+<br> NEXT PHASE
+
+
+The next phase of this project involves deploying the price optimization models using:
+
+ * Flask: To create a web application for serving the model.
+
+ * AWS Lambda: For serverless deployment, ensuring scalability and cost efficiency.
+
+ * API Integration: Allowing seamless integration with other systems for real-time pricing updates.
